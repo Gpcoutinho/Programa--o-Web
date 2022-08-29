@@ -1,0 +1,34 @@
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <title>Formulário de Cadastro</title>
+            <meta charset="UTF-8">
+        </head>
+        <body>
+        <h1>Formulário de Cadastro</h1>
+        <form action="codigoformulario.html" method="post">
+        <fieldset>
+            <legend>Cadastro</legend>
+            <label>E-mail</label><br>
+            <input type="email" name="email" placeholder="Ex: joao@gmail.com" required><br><br>
+            <label>Senha</label><br>
+            <input type="password" name="senha" required><br><br>
+            <label>Cpf</label><br>
+            <input type="text" name="cpf" maxlength="14" placeholder="Ex: 999.999.999-99" required><br><br>
+            <label>Seu nome e sobrenome</label><br>
+            <input type="text" name="nome" placeholder="Ex: João da Silva" required><br><br>
+            <label>Data de Nascimento</label><br>
+            <input type="date" name="datanascimento" required><br><br>
+            <label>Sexo</label><br>
+            <input type="radio" name="sexo" value="Masculino" required> Masculino<br>
+            <input type="radio" name="sexo" value="Feminino"> Feminino<br><br>
+            <input type="checkbox" name="receberwpp" value="aceito"> Receber Notificações por Whatsapp<br>
+            <input type="text" name="numero" placeholder="Ex: (99)99999-9999"><br><br>
+            <input type="checkbox" name="receberemail" value="aceito" checked> Desejo Receber ofertas por E-Mail<br><br>
+            <button>Criar seu Cadastro</button><br><br>
+            <p>Fique tranquilo, nosso site é seguro</p>
+            <p>Já tem cadastro? <a href="codigologin.html">Entrar</a></p>
+       </fieldset>
+    </form>
+        </body>
+    </html>
